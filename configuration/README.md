@@ -72,7 +72,7 @@ cat db.k
 ```
 
 ```python
-env: str = option("env") or "dev"  # The attribute `env` has a default value "den"
+env: str = option("env") or "dev"  # The attribute `env` has a default value "dev"
 database: str = option("database")
 hosts = {
     dev = "postgres.dev"
